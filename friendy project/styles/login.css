@@ -1,0 +1,148 @@
+body {
+  background-color: rgb(212, 211, 211);
+}
+.header {
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 30px;
+  font-weight: 600;
+  color: black;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+.rightSec {
+  display: flex;
+  align-items: center;
+}
+.rightSec p {
+  padding: 0 10px;
+}
+.rightSec button a {
+  text-decoration: none;
+}
+.rightSec button {
+  background-color: aquamarine;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.rightSec button:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+.rightSec p {
+  color: gray;
+}
+.login {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  display: block;
+}
+.loginbtns {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.logintext h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  font-weight: bolder;
+}
+.logintext h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Facebookbtn {
+  text-align: center;
+  cursor: pointer;
+
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  transition: 0.3s;
+  color: black;
+}
+.Googlebtn {
+  text-align: center;
+  cursor: pointer;
+
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  transition: 0.3s;
+  color: black;
+}
+.Facebookbtn:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+.Googlebtn:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+.Email {
+  margin: 10px 0;
+}
+.login input {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  display: block;
+  width: 100%;
+
+  border: none;
+  border-radius: 10px;
+}
+img {
+  height: 700px;
+  width: 500px;
+}
+.loginbtn {
+  cursor: pointer;
+  text-align: center;
+  align-items: center;
+  width: 300px;
+  margin: 10px 200px;
+  background-color: aquamarine;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.loginbtn:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+@media (max-width: 800px) {
+  .fakeimg {
+    display: none;
+  }
+  .main {
+    width: 300px;
+    flex-wrap: wrap;
+  }
+  .loginbtn {
+    width: 300px;
+  }
+}
